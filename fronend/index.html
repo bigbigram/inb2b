@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <title>Indo B2BT</title>
+    
+    <!-- Deep Link Meta Tags -->
+    <meta property="al:ios:url" content="indob2bt://app" />
+    <meta property="al:ios:app_store_id" content="your-app-store-id" />
+    <meta property="al:ios:app_name" content="Indo B2BT" />
+    
+    <meta property="al:android:url" content="indob2bt://app" />
+    <meta property="al:android:package" content="com.indob2bt.app" />
+    <meta property="al:android:app_name" content="Indo B2BT" />
+    
+    <!-- Universal Links -->
+    <meta property="og:title" content="Indo B2BT" />
+    <meta property="og:description" content="Your B2B Trading Platform" />
+    <meta property="og:image" content="/vite.svg" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
